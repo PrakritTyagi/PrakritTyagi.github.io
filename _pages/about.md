@@ -33,31 +33,7 @@ Education
 
 Projects
 ======
-[![Alt Text](/images/mstile-310x310.png)](/files/PrakritTyagi_resume.pdf){: .linked-image}
 
-<style>
-.linked-image {
-  position: relative;
-  display: inline-block;
-  width: 310px;
-  height: 310px;
-  overflow: hidden;
-}
-
-.linked-image:hover::after {
-  content: "Resume";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgba(255, 255, 255, 0.8);
-  padding: 10px;
-  border-radius: 5px;
-  backdrop-filter: blur(5px);
-  font-weight: bold;
-  color: #333;
-}
-</style>
 
 
 <!-- 
