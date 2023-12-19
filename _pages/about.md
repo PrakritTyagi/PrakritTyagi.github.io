@@ -60,7 +60,7 @@ Projects
 
 
 ### [LQR based Thrust control of Quadcopter](/portfolio/portfolio-2)
-[![!!!BROKEN!!!](/images/LQR.png)](/portfolio/portfolio-2){: .linked-image}
+[![!!!BROKEN!!!](/images/LQR.gif)](/portfolio/portfolio-2){: .linked-image}
 
 ### [Human Facial Emotion Recognition & Classification](/portfolio/portfolio-3)
 [![!!!BROKEN!!!](/images/Facial_recog.gif)](/portfolio/portfolio-3){: .linked-image}
