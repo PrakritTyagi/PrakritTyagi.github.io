@@ -1,7 +1,8 @@
 ---
 title: "Super Visual Lidar Odometry and Mapping"
-excerpt: "Short description of portfolio item number 4"
+excerpt: "Implemented a robust real-time ROS-based framework for accurate trajectory estimation, 3D Mapping, and Localization by augmenting the feature extraction and matching algorithm with Super-Point descriptor and SuperGlue matching algorithm. <br/><img src='/images/MAPF.gif'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio 4. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+..............
+

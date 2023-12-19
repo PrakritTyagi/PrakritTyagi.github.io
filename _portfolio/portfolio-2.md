@@ -1,7 +1,9 @@
 ---
 title: "LQR based Thrust control of Quadcopter"
-excerpt: "Short description of portfolio item number 2"
+excerpt: "Implemented an LQR controller, which is linearized depending on the quadrotor’s state, unifies the control of rotational and translational states, handles time-varying system dynamics, control parameters and does direct motor control. <br/><img src='/images/LQR.gif'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio 2. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+........
+
+

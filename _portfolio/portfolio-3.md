@@ -1,7 +1,7 @@
 ---
 title: "Human Facial Emotion Recognition & Classification"
-excerpt: "Short description of portfolio item number 2"
+excerpt: "Built a CNN model to recognize and classify human emotions from facial images as a part of a semester-long machine learning team project. The objective was to build and train a model that can identify the emotion of a person from its face. As a member of a five person team, I took charge of the data collection and preprocessing. Furthermore, I was responsible for the development, training, and evaluation of the CNN model.  <br/><img src='/images/Facial_recog.gif'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio 3. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+..........
