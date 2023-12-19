@@ -33,12 +33,18 @@ Education
 
 Projects
 ======
+<style>
+.align-left {
+  float: left;
+  margin-right: 10px; /* Optional margin for spacing between image and text */
+}
+</style>
 
 ### [Warebots: Multi Agent Path Finding](/portfolio/portfolio-1)
 
 The project explores the Multi-Agent Pathfinding (MAPF) problem, focusing on one-shot MAPF and its dynamic counterpart, Lifelong MAPF (LMAPF). It delves into the Conflict-Based Search Algorithm (CBS), a two-level approach for resolving conflicts between agents, showcasing its effectiveness in small-scale environments inspired by the League of Robot Runners competition.
 
-[![!!!BROKEN!!!](/images/MAPF.gif)](/portfolio/portfolio-1){: .linked-image}
+[![!!!BROKEN!!!](/images/MAPF.gif)](/portfolio/portfolio-1){: .linked-image .align-left}
 
 <style>
 .linked-image {
@@ -64,13 +70,13 @@ The project explores the Multi-Agent Pathfinding (MAPF) problem, focusing on one
 ### [LQR based Thrust control of Quadcopter](/portfolio/portfolio-2)
 Implemented an LQR controller, which is linearized depending on the quadrotor’s state, unifies the control of rotational and translational states, handles time-varying system dynamics, control parameters and does direct motor control. 
 
-[![!!!BROKEN!!!](/images/LQR.gif)](/portfolio/portfolio-2){: .linked-image}
+[![!!!BROKEN!!!](/images/LQR.gif)](/portfolio/portfolio-2){: .linked-image .align-left}
 
 
 ### [Human Facial Emotion Recognition & Classification](/portfolio/portfolio-3)
 Built a CNN model to recognize and classify human emotions from facial images as a part of a semester-long machine learning team project. The objective was to build and train a model that can identify the emotion of a person from its face. As a member of a five person team, I took charge of the data collection and preprocessing. Furthermore, I was responsible for the development, training, and evaluation of the CNN model.
 
-[![!!!BROKEN!!!](/images/Facial_recog.gif)](/portfolio/portfolio-3){: .linked-image}
+[![!!!BROKEN!!!](/images/Facial_recog.gif)](/portfolio/portfolio-3){: .linked-image .align-left}
 <style>
 .linked-image img {
   width: 600px; /* Adjust the width as needed */
@@ -81,7 +87,7 @@ Built a CNN model to recognize and classify human emotions from facial images as
 ### [Super Visual Lidar Odometry and Mapping](/portfolio/portfolio-4)
 Implemented a robust real-time ROS-based framework for accurate trajectory estimation, 3D Mapping, and Localization by augmenting the feature extraction and matching algorithm with Super-Point descriptor and SuperGlue matching algorithm.
 
-[![!!!BROKEN!!!](/images/SVLOAM.png)](/portfolio/portfolio-4){: .linked-image}
+[![!!!BROKEN!!!](/images/SVLOAM.png)](/portfolio/portfolio-4){: .linked-image .align-left}
 <style>
 .linked-image img {
   width: 600px; /* Adjust the width as needed */
