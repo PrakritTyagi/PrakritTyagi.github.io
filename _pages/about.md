@@ -63,10 +63,10 @@ The project explores the Multi-Agent Pathfinding (MAPF) problem, focusing on one
 
 ### [LQR based Thrust control of Quadcopter](/portfolio/portfolio-2)
 [![!!!BROKEN!!!](/images/LQR.gif)](/portfolio/portfolio-2){: .linked-image}
-
+Implemented an LQR controller, which is linearized depending on the quadrotor’s state, unifies the control of rotational and translational states, handles time-varying system dynamics, control parameters and does direct motor control. 
 ### [Human Facial Emotion Recognition & Classification](/portfolio/portfolio-3)
 [![!!!BROKEN!!!](/images/Facial_recog.gif)](/portfolio/portfolio-3){: .linked-image}
-
+Built a CNN model to recognize and classify human emotions from facial images as a part of a semester-long machine learning team project. The objective was to build and train a model that can identify the emotion of a person from its face. As a member of a five person team, I took charge of the data collection and preprocessing. Furthermore, I was responsible for the development, training, and evaluation of the CNN model.
 <style>
 .linked-image img {
   width: 600px; /* Adjust the width as needed */
@@ -76,7 +76,7 @@ The project explores the Multi-Agent Pathfinding (MAPF) problem, focusing on one
 
 ### [Super Visual Lidar Odometry and Mapping](/portfolio/portfolio-4)
 [![!!!BROKEN!!!](/images/SVLOAM.png)](/portfolio/portfolio-4){: .linked-image}
-
+Implemented a robust real-time ROS-based framework for accurate trajectory estimation, 3D Mapping, and Localization by augmenting the feature extraction and matching algorithm with Super-Point descriptor and SuperGlue matching algorithm.
 <style>
 .linked-image img {
   width: 600px; /* Adjust the width as needed */
