@@ -34,6 +34,8 @@ Education
 Projects
 ======
 
+### Warebots: Multi Agent Path Finding
+
 [![!!!BROKEN!!!](/images/MAPF.gif)](/files/PrakritTyagi_resume.pdf){: .linked-image}
 
 <style>
