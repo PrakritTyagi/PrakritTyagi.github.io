@@ -5,4 +5,4 @@ collection: portfolio
 ---
 
 ..........
-Read Full Report [Here](/files/24787.pdf){: .btn}
+Full Details [Github](https://github.com/PrakritTyagi/Facial_Emotion_Classifier){: .btn}
