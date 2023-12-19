@@ -4,6 +4,8 @@ excerpt: "Implemented an LQR controller, which is linearized depending on the qu
 collection: portfolio
 ---
 
-........
 
 
+ <br/><img src='/images/motor_input_sim.png'>
+ <br/><img src='/images/motor_norm_input_sim.png'>
+ <br/><img src='/images/state_error_sim.png'>
