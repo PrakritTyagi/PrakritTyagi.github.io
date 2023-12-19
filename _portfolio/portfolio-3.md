@@ -4,5 +4,4 @@ excerpt: "Built a CNN model to recognize and classify human emotions from facial
 collection: portfolio
 ---
 
-..........
 Full Details [Github](https://github.com/PrakritTyagi/Facial_Emotion_Classifier){: .btn}

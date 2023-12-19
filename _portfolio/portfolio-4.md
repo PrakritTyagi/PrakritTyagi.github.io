@@ -15,7 +15,7 @@ collection: portfolio
 Full Report [Here](/files/SVLOAM_report.pdf){: .btn}
 
 
-[![!!!BROKEN!!!](/images/SVLOAM.png)](/portfolio/portfolio-4){: .linked-image}
+[![!!!BROKEN!!!](/images/SVLOAM.png)](/files/SVLOAM_report.pdf){: .linked-image}
 <style>
 .linked-image {
   position: relative;
