@@ -1,5 +1,5 @@
 ---
-title: "Portfolio item number 2"
+title: "LQR based Thrust control of Quadcopter"
 excerpt: "Short description of portfolio item number 2"
 collection: portfolio
 ---

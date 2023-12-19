@@ -36,6 +36,8 @@ Projects
 
 ### [Warebots: Multi Agent Path Finding](/portfolio/portfolio-1)
 
+The project explores the Multi-Agent Pathfinding (MAPF) problem, focusing on one-shot MAPF and its dynamic counterpart, Lifelong MAPF (LMAPF). It delves into the Conflict-Based Search Algorithm (CBS), a two-level approach for resolving conflicts between agents, showcasing its effectiveness in small-scale environments inspired by the League of Robot Runners competition.
+
 [![!!!BROKEN!!!](/images/MAPF.gif)](/portfolio/portfolio-1){: .linked-image}
 
 <style>

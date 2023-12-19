@@ -1,5 +1,5 @@
 ---
-title: "Portfolio item number 3"
+title: "Human Facial Emotion Recognition & Classification"
 excerpt: "Short description of portfolio item number 2"
 collection: portfolio
 ---

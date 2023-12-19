@@ -1,5 +1,5 @@
 ---
-title: "Portfolio item number 4"
+title: "Super Visual Lidar Odometry and Mapping"
 excerpt: "Short description of portfolio item number 4"
 collection: portfolio
 ---
