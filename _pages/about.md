@@ -34,7 +34,27 @@ Education
 Projects
 ======
 
+[![!!!BROKEN!!!](/images/MAPF.gif)](/files/PrakritTyagi_resume.pdf){: .linked-image}
 
+<style>
+.linked-image {
+  position: relative;
+}
+
+.linked-image:hover::after {
+  content: "Read More";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+  backdrop-filter: blur(5px);
+  font-weight: bold;
+  color: #333;
+}
+</style>
 
 <!-- 
 Example: editing a markdown file for a talk
