@@ -34,7 +34,7 @@ Education
 Projects
 ======
 
-### Warebots: Multi Agent Path Finding
+### [Warebots: Multi Agent Path Finding](/portfolio/portfolio-1)
 
 [![!!!BROKEN!!!](/images/MAPF.gif)](/portfolio/portfolio-1){: .linked-image}
 
