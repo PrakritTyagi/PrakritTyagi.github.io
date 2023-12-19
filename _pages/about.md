@@ -65,8 +65,19 @@ Projects
 ### [Human Facial Emotion Recognition & Classification](/portfolio/portfolio-3)
 [![!!!BROKEN!!!](/images/Facial_recog.gif)](/portfolio/portfolio-3){: .linked-image}
 
+<style>
+.linked-image img {
+  width: 600px; /* Adjust the width as needed */
+  height: auto;
+}
+</style>
+
 ### [Super Visual Lidar Odometry and Mapping](/portfolio/portfolio-4)
 [![!!!BROKEN!!!](/images/SVLOAM.png)](/portfolio/portfolio-4){: .linked-image}
 
-<!-- Adjust the width or height as needed -->
-<img src="/images/SVLOAM.png" alt="SVLOAM IMAGE" style="width: 300px; height: auto;">
+<style>
+.linked-image img {
+  width: 600px; /* Adjust the width as needed */
+  height: auto;
+}
+</style>
