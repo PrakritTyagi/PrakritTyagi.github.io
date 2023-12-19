@@ -15,7 +15,8 @@ redirect_from:
 
 💼 I am currently looking to grab PhD opportunnities in field of robotics.
 
-👇 Read through this page to know more about me. [Resume](/files/PrakritTyagi_resume.pdf){: .btn}
+[Resume](/files/PrakritTyagi_resume.pdf){: .btn}
+<!-- 👇 Read through this page to know more about me.  -->
 
 
 
@@ -30,7 +31,10 @@ Education
   * B.Tech in Mechanical Engineering
   * GPA: 8.75/10.0 
 
-<!-- 
+Projects
+======
 
+
+<!-- 
 Example: editing a markdown file for a talk
 ![Editing a markdown file for a talk](/images/editing-talk.png) -->

@@ -15,9 +15,9 @@ main:
   # - title: "Blog Posts"
   #   url: /year-archive/
     
-  - title: "CV"
-    # url: /cv/
-    url: /files/PrakritTyagi_resume.pdf
+  # - title: "CV"
+  #   # url: /cv/
+  #   url: /files/PrakritTyagi_resume.pdf
     
   - title: "Guide"
     url: /markdown/
