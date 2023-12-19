@@ -4,6 +4,11 @@ excerpt: "Implemented an LQR controller, which is linearized depending on the qu
 collection: portfolio
 ---
 
+* Performed hover control in experiment.
+* Showed the fundamental applicability
+of state-dependent and, therefore, time-varying LQR control
+on a MAV with real experiment.
+* Below are results of the experiment.
 
 
  <br/><img src='/images/motor_input_sim.png'>
