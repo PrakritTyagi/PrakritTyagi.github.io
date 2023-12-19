@@ -36,7 +36,7 @@ Projects
 
 ### Warebots: Multi Agent Path Finding
 
-[![!!!BROKEN!!!](/images/MAPF.gif)](/files/PrakritTyagi_resume.pdf){: .linked-image}
+[![!!!BROKEN!!!](/images/MAPF.gif)](/portfolio/portfolio-1.md){: .linked-image}
 
 <style>
 .linked-image {
@@ -44,7 +44,7 @@ Projects
 }
 
 .linked-image:hover::after {
-  content: "Read More";
+  content: "Read More...";
   position: absolute;
   top: 50%;
   left: 50%;
