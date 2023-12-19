@@ -11,3 +11,33 @@ collection: portfolio
 * Augmented the feature extraction and matching algorithm with Super-Point descriptor and SuperGlue matching algorithm.
 
 
+
+Full Report [Here](/files/SVLOAM_report.pdf){: .btn}
+
+
+[![!!!BROKEN!!!](/images/SVLOAM.png)](/portfolio/portfolio-4){: .linked-image}
+<style>
+.linked-image {
+  position: relative;
+}
+
+.linked-image:hover::after {
+  content: "Read More...";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+  backdrop-filter: blur(5px);
+  font-weight: bold;
+  color: #333;
+}
+</style>
+<style>
+.linked-image img {
+  width: 600px; /* Adjust the width as needed */
+  height: auto;
+}
+</style>
