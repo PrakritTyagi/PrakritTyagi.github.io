@@ -60,10 +60,13 @@ Projects
 
 
 ### [LQR based Thrust control of Quadcopter](/portfolio/portfolio-2)
-[![!!!BROKEN!!!](/images/lqr.png)](/portfolio/portfolio-2){: .linked-image}
+[![!!!BROKEN!!!](/images/LQR.png)](/portfolio/portfolio-2){: .linked-image}
 
 ### [Human Facial Emotion Recognition & Classification](/portfolio/portfolio-3)
 [![!!!BROKEN!!!](/images/Facial_recog.gif)](/portfolio/portfolio-3){: .linked-image}
 
 ### [Super Visual Lidar Odometry and Mapping](/portfolio/portfolio-4)
 [![!!!BROKEN!!!](/images/SVLOAM.png)](/portfolio/portfolio-4){: .linked-image}
+
+<!-- Adjust the width or height as needed -->
+<img src="/images/SVLOAM.png" alt="SVLOAM IMAGE" style="width: 300px; height: auto;">
