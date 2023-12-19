@@ -31,6 +31,11 @@ Education
   * B.Tech in Mechanical Engineering
   * GPA: 8.75/10.0 
 
+Research Interests
+======
+I am focused on optimal control and simulations. I feel that learning based methods
+could have eased my burden as they could be trained to learn the physical parameters of the physical system when I could have just focused on software implementation and left some hardware tasks to learning models. Sim2Real is also another pipeline that hopes to seamlessly transfer effort made on simulations to real world experiments, preventing embarrassments of multiple failures before success. 
+
 Projects
 ======
 
