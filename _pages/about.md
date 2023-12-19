@@ -58,6 +58,11 @@ Projects
 }
 </style>
 
-<!-- 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png) -->
+
+### [LQR based Thrust control of Quadcopter](/portfolio/portfolio-2)
+
+### [Human Facial Emotion Recognition & Classification](/portfolio/portfolio-3)
+
+### [Super Visual Lidar Odometry and Mapping](/portfolio/portfolio-4)
+
+[![!!!BROKEN!!!](/images/SVLOAM.png)](/portfolio/portfolio-4){: .linked-image}
