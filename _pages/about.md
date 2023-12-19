@@ -38,6 +38,10 @@ Projects
 <style>
 .linked-image {
   position: relative;
+  display: inline-block;
+  width: 310px;
+  height: 310px;
+  overflow: hidden;
 }
 
 .linked-image:hover::after {
