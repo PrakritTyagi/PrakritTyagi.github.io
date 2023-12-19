@@ -36,7 +36,7 @@ Projects
 
 ### Warebots: Multi Agent Path Finding
 
-[![!!!BROKEN!!!](/images/MAPF.gif)](/portfolio/portfolio-1.md){: .linked-image}
+[![!!!BROKEN!!!](/images/MAPF.gif)](/portfolio/portfolio-1){: .linked-image}
 
 <style>
 .linked-image {
