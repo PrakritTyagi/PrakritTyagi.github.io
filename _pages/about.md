@@ -15,15 +15,20 @@ redirect_from:
 
 💼 I am currently looking to grab PhD opportunnities in field of robotics.
 
-Read through the page to know more about me and here is my CV [Here](/files/PrakritTyagi_resume.pdf) .
+👇 Read through this page to know more about me. [Resume](/files/PrakritTyagi_resume.pdf){: .btn}
+
 
 
 
 
 Education
 ======
-* B.Tech in Mechanical Engineering, Delhi Technological University, 2021
-* M.S. in Mechanical Engineering, Carnegie Mellon University, 2024
+* **Carnegie Mellon University**            2022-2024
+  * M.S. in Mechanical Engineering
+  * GPA: 4.00/4.0 
+* **Delhi Technological University**        2017-2021
+  * B.Tech in Mechanical Engineering
+  * GPA: 8.75/10.0 
 
 <!-- 
 
