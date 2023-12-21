@@ -73,7 +73,8 @@ Implemented an LQR controller, which is linearized depending on the quadrotor’
 
 
 ### [Human Facial Emotion Recognition & Classification](/portfolio/portfolio-3)
-Built a CNN model to recognize and classify human emotions from facial images as a part of a semester-long machine learning team project. The objective was to build and train a model that can identify the emotion of a person from its face. As a member of a five person team, I took charge of the data collection and preprocessing. Furthermore, I was responsible for the development, training, and evaluation of the CNN model.
+As part of a semester-long machine learning team project, built a CNN model that could recognize and classify human emotions from facial images. The objective was to train the model to identify the emotion of a person from their faces.
+
 
 [![!!!BROKEN!!!](/images/Facial_recog.gif)](/portfolio/portfolio-3){: .linked-image}
 <style>
