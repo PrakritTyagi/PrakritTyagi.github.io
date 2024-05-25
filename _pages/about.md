@@ -9,11 +9,11 @@ redirect_from:
 ---
 
 
-🎓 I am a second-year master’s student at Carnegie Mellon University (CMU).
+🎓 Hello! I am Prakrit Tyagi, a recent graduate with a Master's degree in Mechanical Engineering, driven by a passion for robotics and innovation. My academic journey has equipped me with a solid foundation in the design of robotic software stacks, bug analysis, and problem-solving, complemented by hands-on experience in hardware robotics projects.
 
-🕵️‍♂️ My research interests lie in Optimal control, simulations and robotics.
+🕵️‍♂️ With a keen interest in advancing technology, I have focused my studies and projects on controls, path planning, SLAM, and machine learning. I thrive in environments where creativity meets technical expertise, and I am eager to apply my skills to real-world challenges.
 
-💼 I am currently looking to grab PhD opportunnities in field of robotics.
+💼 I am currently seeking opportunities in robotics companies and startups where I can contribute to groundbreaking projects and collaborate with like-minded professionals.
 
 [Resume](/files/PrakritTyagi_resume.pdf){: .btn}
 <!-- 👇 Read through this page to know more about me.  -->
@@ -31,10 +31,10 @@ Education
   * B.Tech in Mechanical Engineering
   * GPA: 8.75/10.0 
 
-Research Interests
+<!-- Research Interests
 ======
 I am focused on optimal control and simulations. I feel that learning based methods
-could have eased my burden as they could be trained to learn the physical parameters of the physical system when I could have just focused on software implementation and left some hardware tasks to learning models. Sim2Real is also another pipeline that hopes to seamlessly transfer effort made on simulations to real world experiments, preventing embarrassments of multiple failures before success. 
+could have eased my burden as they could be trained to learn the physical parameters of the physical system when I could have just focused on software implementation and left some hardware tasks to learning models. Sim2Real is also another pipeline that hopes to seamlessly transfer effort made on simulations to real world experiments, preventing embarrassments of multiple failures before success.  -->
 
 Projects
 ======
