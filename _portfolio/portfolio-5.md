@@ -4,7 +4,7 @@ excerpt: "Legibility is a crucial concept in terms of efficiency and trust in as
 collection: portfolio
 ---
 
-
+* in construction....
 <!-- ## Approach:
 
 The approach centers around the Conflict-Based Search Algorithm (CBS), a novel method for resolving agent conflicts. CBS operates on two levels: a high level that forms a search tree for conflicts and a low level that finds paths for individual agents. The report compares CBS with traditional pathfinding algorithms, demonstrating its efficiency and scalability in dynamic environments.
@@ -15,4 +15,4 @@ Experimental results showcase CBS's performance in two different environments: a
 
 Read Full Report [Here](/files/ML_AI_Project_phase_2_paper.pdf){: .btn}
 
-[![!!!BROKEN!!!](/images/xarm.gif)](/portfolio/portfolio-5)
+[![!!!BROKEN!!!](/images/xarm.gif)]
