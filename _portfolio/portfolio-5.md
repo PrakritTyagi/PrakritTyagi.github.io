@@ -15,4 +15,4 @@ Experimental results showcase CBS's performance in two different environments: a
 
 Read Full Report [Here](/files/ML_AI_Project_phase_2_paper.pdf){: .btn}
 
-[![!!!BROKEN!!!](/images/xarm.gif)](/portfolio/portfolio-1)
+[![!!!BROKEN!!!](/images/xarm.gif)](/portfolio/portfolio-5)
