@@ -6,23 +6,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Green Plant</title>
-  <meta name='description' content='Vonge is a portfolio site template for Jekyll'>
+  <title>Multi-Agent Path Finding</title>
+  <meta name='description' content='This is a portfolio site for Prakrit Tyagi.'>
 
   <link rel="canonical" href="https://prakrittyagi.github.io/project/green-plant">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Green Plant – Vonge">
-  <meta name="twitter:description" content="In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem.
+  <meta name="twitter:title" content="Multi-Agent Path Finding – Prakrit Tyagi">
+  <meta name="twitter:description" content="Multi-agent path finding (MAPF) is an NP-hard problem with practical applications in areas like surveillance, search and rescue, and warehouse logistics. In one-shot MAPF, the goal is to compute collision-free paths for agents from their starting positions to target locations while minimizing a predefined objective, such as makespan or path length. Lifelong multi-agent pathfinding (LMAPF) extends this by requiring agents to continuously adapt to new goals and replan paths dynamically, increasing complexity, especially in dense environments. Conflict-Based Search (CBS) algorithm addresses these challenges by using a two-level approach: a high-level Conflict Tree tracks agent conflicts, while a low-level single-agent search resolves constraints. This project implemented a lifelong variant of CBS in a small-scale environment, inspired by the League of Robot Runners competition by Amazon Robotics.
 ">
-  <meta name="twitter:image:src" content="https://prakrittyagi.github.io/images/project-9.jpg">
+  <meta name="twitter:image:src" content="https://prakrittyagi.github.io/images/cover_multi_robot.jpg">
 
   <!-- Facebook OpenGraph -->
-  <meta property="og:title" content="Green Plant – Vonge">
-  <meta property="og:description" content="In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem.
+  <meta property="og:title" content="Multi-Agent Path Finding – Prakrit Tyagi">
+  <meta property="og:description" content="Multi-agent path finding (MAPF) is an NP-hard problem with practical applications in areas like surveillance, search and rescue, and warehouse logistics. In one-shot MAPF, the goal is to compute collision-free paths for agents from their starting positions to target locations while minimizing a predefined objective, such as makespan or path length. Lifelong multi-agent pathfinding (LMAPF) extends this by requiring agents to continuously adapt to new goals and replan paths dynamically, increasing complexity, especially in dense environments. Conflict-Based Search (CBS) algorithm addresses these challenges by using a two-level approach: a high-level Conflict Tree tracks agent conflicts, while a low-level single-agent search resolves constraints. This project implemented a lifelong variant of CBS in a small-scale environment, inspired by the League of Robot Runners competition by Amazon Robotics.
 ">
-  <meta property="og:image" content="https://prakrittyagi.github.io/images/project-9.jpg">
+  <meta property="og:image" content="https://prakrittyagi.github.io/images/cover_multi_robot.jpg">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
@@ -46,7 +46,7 @@
         <div class="logo">
           <a class="logo__link" href="/">
           
-            <img class="logo__image" src="/images/logo.svg" alt="Vonge">
+            
           
           </a>
         </div>
@@ -79,20 +79,6 @@
                 <li class="nav__item">
                   <a href="/blog/" class="nav__link">Blog</a>
                 </li>
-                
-              
-                
-                <li class="nav__item dropdown">
-                  <span class="nav__link dropdown-toggle">Pages <i class="ion ion-ios-arrow-down arrow-down"></i></span>
-                  <div class="dropdown-menu">
-                    
-                      <a href="/about/" class="nav__link">About</a>
-                    
-                      <a href="/elements/" class="nav__link">Elements</a>
-                    
-                  </div>
-                </li>
-
                 
               
 
@@ -144,9 +130,9 @@
 
 <div class="container">
   <div class="c-page-heading">
-    <h1 class="c-page-heading__title">Green Plant</h1>
+    <h1 class="c-page-heading__title">Multi-Agent Path Finding</h1>
     
-      <p class="c-page-heading__description">Photography</p>
+      <p class="c-page-heading__description">Planning and Decision Making</p>
     
   </div>
 </div>
@@ -159,7 +145,7 @@
   <div class="row">
     <div class="col col-12">
       <div class="c-page-image animate">
-        <img loading="lazy" src="/images/project-9.jpg" alt="">
+        <img loading="lazy" src="/images/cover_multi_robot.jpg" alt="">
       </div>
     </div>
   </div>
@@ -167,15 +153,62 @@
 <!--bookshop-live end-->
 
   <div class="page animate">
-    <p>In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem.</p>
+    <p>Multi-agent path finding (MAPF) is an NP-hard problem with practical applications in areas like surveillance, search and rescue, and warehouse logistics. In one-shot MAPF, the goal is to compute collision-free paths for agents from their starting positions to target locations while minimizing a predefined objective, such as makespan or path length. Lifelong multi-agent pathfinding (LMAPF) extends this by requiring agents to continuously adapt to new goals and replan paths dynamically, increasing complexity, especially in dense environments. Conflict-Based Search (CBS) algorithm addresses these challenges by using a two-level approach: a high-level Conflict Tree tracks agent conflicts, while a low-level single-agent search resolves constraints. This project implemented a lifelong variant of CBS in a small-scale environment, inspired by the League of Robot Runners competition by Amazon Robotics.</p>
 
-<p><img src="/images/image-example-3.jpg" alt="Palm trees" width="1200" height="900" /></p>
+<h2 id="problem-statement">Problem statement</h2>
 
-<p>Praeteritis, inquit, gaudeo. Praeteritis, inquit, gaudeo. Quod, inquit, quamquam voluptatibus quibusdam est saepe iucundius, tamen expetitur propter voluptatem. Scientiam pollicentur, quam non erat mirum sapientiae cupido patria esse cariorem. Non quaeritur autem quid naturae tuae consentaneum sit, sed quid disciplinae. Ita ne hoc quidem modo paria peccata sunt. Ita prorsus, inquam; Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius. Virtutibus igitur rectissime mihi videris et ad consuetudinem nostrae orationis.</p>
+<p>Given a 4 connected Grid, N-agents are trying to maximize task completion under time constraint while avoiding path conflict.</p>
 
-<p><img src="/images/image-example-4.jpg" alt="Sea" width="1200" height="900" /></p>
+<p><img src="/images/MAPF_problem_statement.svg" alt="MAPF_problem_statement" width="900" height="675" /></p>
 
-<p>Defecerit Sed isti ipsi, qui voluptate et dolore omnia metiuntur, nonne clamant sapienti plus semper adesse quod velit quam quod nolit? Quae quidem sapientes sequuntur duce natura tamquam videntes; Quod enim dissolutum sit, id esse sine sensu, quod autem sine sensu. Sunt omnia Longum est enim ad omnia respondere, quae a te dicta sunt. Nam cui proposito sit conservatio sui, necesse est huic partes quoque sui caras suo genere laudabiles servari.</p>
+<p>Our robot can move forward, or rotate 90 degrees at one location. This means that our action, state
+and goal variables are as follows:</p>
+
+<p><img src="/images/MAPF_variables.svg" alt="MAPF_variables" width="900" height="675" /></p>
+
+<p>Our planner algorithm will generate paths that will cause conflict. In our case we will consider two types of conflicts, which are edge and vertex conflicts.</p>
+
+<h2 id="planning-algorithm-conflict-based-search">Planning Algorithm: Conflict Based Search</h2>
+
+<p>Conflict Based Search (CBS) is a two-level algorithm that diverges from converting the problem into a single ’joint agent’ model. Instead, it adopts a distinctive approach where, at the high level, a search is conducted on a Conflict Tree. This tree is structured based on conflicts between individual agents, with each node in the CT representing a set of constraints on the agent’s motion. Simultaneously, at the low level, swift single-agent searches are executed to find new paths as to fulfill the constraints dictated by the high-level CT node. The unique two-level formulation of CBS often results in the examination of fewer states compared to A*, all while maintaining optimality in many cases.</p>
+
+<p><img src="/images/MAPF_binary_tree.svg" alt="MAPF_BT" width="900" height="675" /></p>
+
+<h2 id="pseudo-code">Pseudo Code</h2>
+
+<p>Pseudo code for life-long MAPF and CBS function is given below.</p>
+
+<p><img src="/images/MAPF_pseudo_lifelong.svg" alt="MAPF_ps_ll" width="550" height="400" /></p>
+
+<p><img src="/images/MAPF_pseudo_CBS.svg" alt="MAPF_ps_ll" width="550" height="400" /></p>
+
+<h2 id="demostration-video">Demostration Video</h2>
+
+<p>To visualize we used an open source tool called <a href="https://github.com/MAPF-Competition/PlanViz">PlanViz</a>. The video below shows the demonstration of the life-long CBS algorithm in action.</p>
+
+<p><img src="/images/Planviz.gif" alt="MAPF_video" width="800" /></p>
+
+<h2 id="results">Results</h2>
+
+<p>The results of the CBS algorithm are shown below. The algorithm was able to find the optimal paths for the agents in the given environment.</p>
+
+<p><img src="/images/MAPF_results.svg" alt="MAPF_results" width="900" height="675" /></p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>The results show that in a larger map (33x57 cells) with more agents (25), task completion was higher (3666 tasks) but at the cost of increased computational time (72.722 seconds) and more CBS calls. In contrast, a smaller map (32x32 cells) with fewer agents (20) led to fewer tasks completed (3416) but required less time (70.821 seconds) and fewer CBS calls (2492). The algorithm performed more efficiently in the smaller, organized warehouse environment, where structured paths reduced tree size during planning, leading to faster, more optimal solutions. In contrast, the larger, more complex environment required more CBS calls and time to find optimal paths, highlighting the trade-off between task completion and computational efficiency.</p>
+
+<h2 id="future-work">Future Work</h2>
+
+<ul>
+  <li>Implementing Improved Conflict Based Search (ICBS)</li>
+  <li>Implementing Explicit Estimation Conflict-Based Search (EECBS)</li>
+  <li>Increasing Scalability of existing pipeline for solving more than 10k agents</li>
+</ul>
+
+<h2 id="references">References</h2>
+
+<p>Read Full Report <a href="/files/planning_project_report.pdf">Here</a></p>
 
   </div>
 
