@@ -53,7 +53,7 @@ The results show that in a larger map (33x57 cells) with more agents (25), task 
 
 * Implementing Improved Conflict Based Search (ICBS)
 * Implementing Explicit Estimation Conflict-Based Search (EECBS)
-* Increasing Scalability of existing pipeline for solving more than 10k agents
+* Scaling of existing pipeline for solving more than 10k agents
 
 ## References
 
