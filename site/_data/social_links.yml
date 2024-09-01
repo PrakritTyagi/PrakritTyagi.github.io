@@ -4,7 +4,7 @@
 # Other icons can be found at https://ionicons.com/v4/ && https://github.com/ionic-team/ionicons/tree/4.x
 # Social Links
 social:
-- {icon: "logo-github", link: "https://github.com/PrakritTyagi"}
 - {icon: "logo-linkedin", link: "https://www.linkedin.com/in/prakrittyagi/"}
+- {icon: "logo-github", link: "https://github.com/PrakritTyagi"}
 - {icon: "md-mail", link: "mailto:tyagiprakrit200@gmail.com"}
 - {icon: "md-school", link: "https://scholar.google.com/citations?user=mr1HGtgAAAAJ&hl=en&authuser=1"}
