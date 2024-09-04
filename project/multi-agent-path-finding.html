@@ -14,15 +14,15 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Multi-Agent Path Finding – Prakrit Tyagi">
-  <meta name="twitter:description" content="Multi-agent path finding (MAPF) is an NP-hard problem with practical applications in areas like surveillance, search and rescue, and warehouse logistics. In one-shot MAPF, the goal is to compute collision-free paths for agents from their starting positions to target locations while minimizing a predefined objective, such as makespan or path length. Lifelong multi-agent pathfinding (LMAPF) extends this by requiring agents to continuously adapt to new goals and replan paths dynamically, increasing complexity, especially in dense environments. Conflict-Based Search (CBS) algorithm addresses these challenges by using a two-level approach: a high-level Conflict Tree tracks agent conflicts, while a low-level single-agent search resolves constraints. This project implemented a lifelong variant of CBS in a small-scale environment, inspired by the League of Robot Runners competition by Amazon Robotics.
+  <meta name="twitter:description" content="Source: Image generated using DALL·E
 ">
-  <meta name="twitter:image:src" content="https://prakrittyagi.github.io/images/cover_multi_robot.jpg">
+  <meta name="twitter:image:src" content="https://prakrittyagi.github.io/images/MAPF/cover_multi_robot.jpg">
 
   <!-- Facebook OpenGraph -->
   <meta property="og:title" content="Multi-Agent Path Finding – Prakrit Tyagi">
-  <meta property="og:description" content="Multi-agent path finding (MAPF) is an NP-hard problem with practical applications in areas like surveillance, search and rescue, and warehouse logistics. In one-shot MAPF, the goal is to compute collision-free paths for agents from their starting positions to target locations while minimizing a predefined objective, such as makespan or path length. Lifelong multi-agent pathfinding (LMAPF) extends this by requiring agents to continuously adapt to new goals and replan paths dynamically, increasing complexity, especially in dense environments. Conflict-Based Search (CBS) algorithm addresses these challenges by using a two-level approach: a high-level Conflict Tree tracks agent conflicts, while a low-level single-agent search resolves constraints. This project implemented a lifelong variant of CBS in a small-scale environment, inspired by the League of Robot Runners competition by Amazon Robotics.
+  <meta property="og:description" content="Source: Image generated using DALL·E
 ">
-  <meta property="og:image" content="https://prakrittyagi.github.io/images/cover_multi_robot.jpg">
+  <meta property="og:image" content="https://prakrittyagi.github.io/images/MAPF/cover_multi_robot.jpg">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
@@ -163,7 +163,7 @@
   <div class="row">
     <div class="col col-12">
       <div class="c-page-image animate">
-        <img loading="lazy" src="/images/cover_multi_robot.jpg" alt="">
+        <img loading="lazy" src="/images/MAPF/cover_multi_robot.jpg" alt="">
       </div>
     </div>
   </div>
@@ -171,18 +171,22 @@
 <!--bookshop-live end-->
 
   <div class="page animate">
-    <p>Multi-agent path finding (MAPF) is an NP-hard problem with practical applications in areas like surveillance, search and rescue, and warehouse logistics. In one-shot MAPF, the goal is to compute collision-free paths for agents from their starting positions to target locations while minimizing a predefined objective, such as makespan or path length. Lifelong multi-agent pathfinding (LMAPF) extends this by requiring agents to continuously adapt to new goals and replan paths dynamically, increasing complexity, especially in dense environments. Conflict-Based Search (CBS) algorithm addresses these challenges by using a two-level approach: a high-level Conflict Tree tracks agent conflicts, while a low-level single-agent search resolves constraints. This project implemented a lifelong variant of CBS in a small-scale environment, inspired by the League of Robot Runners competition by Amazon Robotics.</p>
+    <p style="text-align: center; font-size: 0.7em; color: gray; margin-top: 0; margin-bottom: 40px;">Source: Image generated using DALL·E</p>
+
+<p>Multi-agent path finding (MAPF) is an NP-hard problem with practical applications in areas like surveillance, search and rescue, and warehouse logistics. In one-shot MAPF, the goal is to compute collision-free paths for agents from their starting positions to target locations while minimizing a predefined objective, such as makespan or path length. Lifelong multi-agent pathfinding (LMAPF) extends this by requiring agents to continuously adapt to new goals and replan paths dynamically, increasing complexity, especially in dense environments. Conflict-Based Search (CBS) algorithm addresses these challenges by using a two-level approach: a high-level Conflict Tree tracks agent conflicts, while a low-level single-agent search resolves constraints. This project implemented a lifelong variant of CBS in a small-scale environment, inspired by the League of Robot Runners competition by Amazon Robotics.</p>
 
 <h2 id="problem-statement">Problem statement</h2>
 
 <p>Given a 4 connected Grid, N-agents are trying to maximize task completion under time constraint while avoiding path conflict.</p>
 
-<p><img src="/images/MAPF_problem_statement.svg" alt="MAPF_problem_statement" width="900" height="675" /></p>
+<p><img src="/images/MAPF/MAPF_problem_statement.svg" alt="MAPF problem statement" width="900" height="675" />
+<!-- *Source: M. Daman et. al., "PRIMAL_2: Pathfinding Via Reinforcement and Imitation Multi-Agent Learning - Lifelong."* --></p>
+<p style="text-align: center; font-size: 0.7em; color: gray; margin-top: 0; margin-bottom: 40px;">Source: M. Daman et. al., "PRIMAL_2: Pathfinding Via Reinforcement and Imitation Multi-Agent Learning - Lifelong."</p>
 
 <p>Our robot can move forward, or rotate 90 degrees at one location. This means that our action, state
 and goal variables are as follows:</p>
 
-<p><img src="/images/MAPF_variables.svg" alt="MAPF_variables" width="900" height="675" /></p>
+<p><img src="/images/MAPF/MAPF_variables.svg" alt="MAPF variables" width="900" height="675" /></p>
 
 <p>Our planner algorithm will generate paths that will cause conflict. In our case we will consider two types of conflicts, which are edge and vertex conflicts.</p>
 
@@ -190,27 +194,27 @@ and goal variables are as follows:</p>
 
 <p>Conflict Based Search (CBS) is a two-level algorithm that diverges from converting the problem into a single ’joint agent’ model. Instead, it adopts a distinctive approach where, at the high level, a search is conducted on a Conflict Tree. This tree is structured based on conflicts between individual agents, with each node in the CT representing a set of constraints on the agent’s motion. Simultaneously, at the low level, swift single-agent searches are executed to find new paths as to fulfill the constraints dictated by the high-level CT node. The unique two-level formulation of CBS often results in the examination of fewer states compared to A*, all while maintaining optimality in many cases.</p>
 
-<p><img src="/images/MAPF_binary_tree.svg" alt="MAPF_BT" width="900" height="675" /></p>
+<p><img src="/images/MAPF/MAPF_binary_tree.svg" alt="MAPF BT image" width="900" height="675" /></p>
 
 <h2 id="pseudo-code">Pseudo Code</h2>
 
-<p>Pseudo code for life-long MAPF and CBS function is given below.</p>
+<p>The pseudo code for life-long MAPF and CBS function is given below.</p>
 
-<p><img src="/images/MAPF_pseudo_lifelong.svg" alt="MAPF_ps_ll" width="550" height="400" /></p>
+<p><img src="/images/MAPF/MAPF_pseudo_lifelong.svg" alt="MAPF pseudo code lifelong" width="550" height="400" /></p>
 
-<p><img src="/images/MAPF_pseudo_CBS.svg" alt="MAPF_ps_ll" width="550" height="400" /></p>
+<p><img src="/images/MAPF/MAPF_pseudo_CBS.svg" alt="MAPF_pseudo CBS function" width="550" height="400" /></p>
 
 <h2 id="demostration-video">Demostration Video</h2>
 
 <p>To visualize we used an open source tool called <a href="https://github.com/MAPF-Competition/PlanViz">PlanViz</a>. The video below shows the demonstration of the life-long CBS algorithm in action.</p>
 
-<p><img src="/images/Planviz.gif" alt="MAPF_video" width="800" /></p>
+<p><img src="/images/MAPF/Planviz.gif" alt="MAPF video" width="800" /></p>
 
 <h2 id="results">Results</h2>
 
 <p>The results of the CBS algorithm are shown below. The algorithm was able to find the optimal paths for the agents in the given environment.</p>
 
-<p><img src="/images/MAPF_results.svg" alt="MAPF_results" width="900" height="675" /></p>
+<p><img src="/images/MAPF/MAPF_results.svg" alt="MAPF results" width="900" height="675" /></p>
 
 <h2 id="conclusion">Conclusion</h2>
 
@@ -226,7 +230,7 @@ and goal variables are as follows:</p>
 
 <h2 id="references">References</h2>
 
-<p>Read Full Report <a href="/files/planning_project_report.pdf">Here</a></p>
+<p>Read Full Report <a href="/files/planning_project_paper.pdf">Here</a> !!!</p>
 
   </div>
 
@@ -234,44 +238,7 @@ and goal variables are as follows:</p>
 
 </div>
 
-<!--bookshop-live meta(version="3.9.0" baseurl="" title="Prakrit Tyagi") -->
-<!--bookshop-live name(newsletter/newsletter.jekyll.html) params(newsletter_title=site.data.newsletter.newsletter_title
-  newsletter_description=site.data.newsletter.newsletter_description
-  newsletter_identifier=site.data.newsletter.newsletter_identifier
-  newsletter_button=site.data.newsletter.newsletter_button) context() -->
-<!-- begin subscribe -->
 
-<section class="c-subscribe section">
-  <div class="container">
-    <div class="row">
-      <div class="col col-12">
-
-        <div class="c-subscribe__inner">
-          <div class="c-subscribe__info">
-            <h3 class="c-subscribe__title">Join my mailing list</h3>
-            <div class="c-subscribe__subtitle">
-              <span id="ityped"></span>
-            </div>
-          </div>
-
-          <form class="c-subscribe__form validate" action="//frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3"
-            method="POST" id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate>
-            <label class="screen-reader-text" for="mce-EMAIL">Email address</label>
-            <input class="c-subscribe__form-email required email" id="mce-EMAIL" type="text" name="EMAIL" placeholder="Your email address">
-            <button class="c-button c-button--primary c-button--large" id="membedded-subscribe" type="submit" name="subscribe">Subscribe</button>
-          </form>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- end subscribe -->
-
-<script>
-  var itype_text = ['Get inspiration, updates and, cool stuff!'];
-</script>
-<!--bookshop-live end-->
 
     <!--
         Bookshop components are accessed using the bookshop tag,

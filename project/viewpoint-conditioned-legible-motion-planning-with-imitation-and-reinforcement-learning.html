@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Viewpoint-Conditioned Legible Motion Planning with Imitation and Reinforcement Learning</title>
+  <meta name='description' content='This is a portfolio site for Prakrit Tyagi.'>
+
+  <link rel="canonical" href="https://prakrittyagi.github.io/project/viewpoint-conditioned-legible-motion-planning-with-imitation-and-reinforcement-learning">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Viewpoint-Conditioned Legible Motion Planning with Imitation and Reinforcement Learning – Prakrit Tyagi">
+  <meta name="twitter:description" content="&amp;lt;!– In robotics, legible motion planning is crucial for effective human-robot interaction and shared autonomy. It involves designing robotic movements that are easily interpretable by humans, promoting intuitive anticipation of a robot’s actions. This is essential in settings where robots and humans work closely together, such as in collaborative manufacturing or healthcare.
+">
+  <meta name="twitter:image:src" content="https://prakrittyagi.github.io/images/IM_RL/cover_xarm.png">
+
+  <!-- Facebook OpenGraph -->
+  <meta property="og:title" content="Viewpoint-Conditioned Legible Motion Planning with Imitation and Reinforcement Learning – Prakrit Tyagi">
+  <meta property="og:description" content="&amp;lt;!– In robotics, legible motion planning is crucial for effective human-robot interaction and shared autonomy. It involves designing robotic movements that are easily interpretable by humans, promoting intuitive anticipation of a robot’s actions. This is essential in settings where robots and humans work closely together, such as in collaborative manufacturing or healthcare.
+">
+  <meta property="og:image" content="https://prakrittyagi.github.io/images/IM_RL/cover_xarm.png">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+
+  <!-- Ionicons -->
+  <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/main.css">
+</head>
+
+<body>
+
+    
+
+    <!-- begin header -->
+<header class="c-header">
+  <div class="container">
+    <div class="row">
+      <div class="c-header__inner">
+
+        <div class="logo">
+          <a class="logo__link" href="/">
+          
+            
+          
+          </a>
+        </div>
+
+        <nav class="main-nav">
+          <div class="main-nav__box">
+
+            <div class="nav__icon-close">
+              <i class="ion ion-md-close"></i>
+            </div>
+
+            <div class="nav__title">Menu</div>
+
+              <ul class="nav__list list-reset">
+
+              
+                
+                <li class="nav__item">
+                  <a href="/" class="nav__link">Home</a>
+                </li>
+                
+              
+                
+                <li class="nav__item">
+                  <a href="/projects/" class="nav__link">Projects</a>
+                </li>
+                
+              
+                
+                <li class="nav__item">
+                  <a href="/blog/" class="nav__link">Blog</a>
+                </li>
+                
+              
+                
+                <li class="nav__item">
+                  <a href="/about/" class="nav__link">About</a>
+                </li>
+                
+              
+
+            </ul>
+          </div>
+
+          <!--bookshop-live meta(version="3.9.0" baseurl="" title="Prakrit Tyagi") -->
+<!--bookshop-live name(social-link.jekyll.html) params() context() -->
+
+<div class="social">
+  <ul class="social__list list-reset">
+    
+    <li class="social__item">
+      <a class="social__link" href="https://www.linkedin.com/in/prakrittyagi/" target="_blank" rel="noopener" aria-label="logo-linkedin icon">
+        <!-- <img loading="lazy" src="/images/logos/logo-linkedin.png" alt=""/> -->
+        <i class="ion ion-logo-linkedin"></i>
+      </a>
+    </li>
+    
+    <li class="social__item">
+      <a class="social__link" href="https://github.com/PrakritTyagi" target="_blank" rel="noopener" aria-label="logo-github icon">
+        <!-- <img loading="lazy" src="/images/logos/logo-github.png" alt=""/> -->
+        <i class="ion ion-logo-github"></i>
+      </a>
+    </li>
+    
+    <li class="social__item">
+      <a class="social__link" href="mailto:tyagiprakrit200@gmail.com" target="_blank" rel="noopener" aria-label="md-mail icon">
+        <!-- <img loading="lazy" src="/images/logos/md-mail.png" alt=""/> -->
+        <i class="ion ion-md-mail"></i>
+      </a>
+    </li>
+    
+    <li class="social__item">
+      <a class="social__link" href="https://scholar.google.com/citations?user=mr1HGtgAAAAJ&hl=en&authuser=1" target="_blank" rel="noopener" aria-label="md-school icon">
+        <!-- <img loading="lazy" src="/images/logos/md-school.png" alt=""/> -->
+        <i class="ion ion-md-school"></i>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+
+<!--bookshop-live end-->
+        </nav>
+
+        <div class="nav-button">
+          <i class="nav__icon nav__icon-menu ion ion-md-menu"></i>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</header>
+<!-- end header -->
+
+    <div class="container">
+
+  <!--bookshop-live meta(version="3.9.0" baseurl="" title="Prakrit Tyagi") -->
+<!--bookshop-live name(page-heading/page-heading.jekyll.html) params(title=page.title description=page.subtitle) context() -->
+
+<div class="container">
+  <div class="c-page-heading">
+    <h1 class="c-page-heading__title">Viewpoint-Conditioned Legible Motion Planning with Imitation and Reinforcement Learning</h1>
+    
+      <p class="c-page-heading__description">AI and Manipulation</p>
+    
+  </div>
+</div>
+<!--bookshop-live end-->
+  
+  <!--bookshop-live meta(version="3.9.0" baseurl="" title="Prakrit Tyagi") -->
+<!--bookshop-live name(page-image/page-image.jekyll.html) params(image=page_image) context() -->
+
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
+      <div class="c-page-image animate">
+        <img loading="lazy" src="/images/IM_RL/cover_xarm.png" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+<!--bookshop-live end-->
+
+  <div class="page animate">
+    <!-- In robotics, **legible motion planning** is crucial for effective human-robot interaction and shared autonomy. It involves designing robotic movements that are easily interpretable by humans, promoting intuitive anticipation of a robot's actions. This is essential in settings where robots and humans work closely together, such as in collaborative manufacturing or healthcare.
+
+![legible motion pictorial description](/images/IM_RL/xarm_lmp.png){: width="900" height="675"} -->
+
+<!-- <div style="display: flex; align-items: center;">
+  <img src="/images/IM_RL/xarm_lmp.png" alt="xarm_lmp" style="margin-right: 20px;">
+  <p>In robotics, <strong>legible motion planning</strong> is crucial for effective human-robot interaction and shared autonomy. It involves designing robotic movements that are easily interpretable by humans, promoting intuitive anticipation of a robot's actions. This is essential in settings where robots and humans work closely together, such as in collaborative manufacturing or healthcare.</p>
+</div> -->
+
+<div style="display: flex; width: 100%; height: 100%;">
+  <div style="flex: 1; padding: 10px;">
+    <p>In robotics, <strong>legible motion planning</strong> is crucial for effective human-robot interaction and shared autonomy. It involves designing robotic movements that are easily interpretable by humans, promoting intuitive anticipation of a robot's actions. This is essential in settings where robots and humans work closely together, such as in collaborative manufacturing or healthcare.</p>
+  </div>
+  <div style="flex: 1; padding: 10px; display: flex; align-items: center; justify-content: center;">
+    <img src="/images/IM_RL/xarm_lmp.png" alt="legible motion pictorial description" style="width: 100%; max-width: 900px; height: auto;" />
+  </div>
+</div>
+
+<p>Two key learning-based methods for achieving legible motion are <strong>reinforcement learning (RL)</strong> and <strong>imitation learning (IL)</strong>:</p>
+
+<ul>
+  <li><strong>Reinforcement Learning (RL)</strong> uses a trial-and-error approach with rewards and penalties to teach robots optimal behaviors, allowing for adaptive and autonomous learning.</li>
+  <li><strong>Imitation Learning (IL)</strong> involves teaching robots by mimicking human demonstrations, aligning robotic actions with human-like patterns.</li>
+</ul>
+
+<p>However, both methods have been applied largely ignoring the influence of the observer’s viewpoint, which affects how clearly the robot’s intent is communicated. The research aims to integrate viewpoint conditioning into these learning algorithms to improve the alignment of robotic behavior with human perception.</p>
+
+<p>The project introduces:</p>
+
+<ul>
+  <li>A universal planning architecture that incorporates both RL and IL for learned legibility.</li>
+  <li>A new model of legible motion planning that considers the human viewpoint.</li>
+  <li>Evaluations demonstrating the effectiveness of these approaches in real-world scenarios.</li>
+</ul>
+
+<p>The goal is to enhance human-robot collaboration by making robotic actions more predictable and understandable.</p>
+
+<h2 id="system-overview">System Overview</h2>
+
+<p><img src="/images/IM_RL/xarm_overview.png" alt="System Overview diagram" width="900" height="675" /></p>
+
+<p>We propose a universal learning-based architecture for legible motion planning that can be applied across both reinforcement learning (RL) and imitation learning (IL) setups, differing primarily in the policy learning pipeline. Our focus is on goal-reaching manipulation tasks where the robot must choose between two objects: a goal and a distraction. To ensure legibility, the robot’s movements must be easily understandable and predictable by humans, indicating which object it aims to reach. Furthermore, the robot’s actions are adjusted based on the human’s perspective of the task environment, whether viewed from above or the side.</p>
+
+<p>In our proposed framework, the policy—trainable via either imitation learning or reinforcement learning—generates legible motions that allow human collaborators to clearly grasp the robot’s intent. At each time step, the policy receives inputs including the state of the robot, the goal, potential distractions that could confuse human collaborators, and the viewpoint of the human collaborators. It then predicts an action in the form of joint torques for the robot to execute. While our focus is on the planning side, all observations except the robot state are specified manually. In practical applications, these observations can be obtained from a perception module to facilitate full shared autonomy.</p>
+
+<h2 id="technical-approaches">Technical Approaches</h2>
+
+<h3 id="reinforcement-learning-based-approach">Reinforcement Learning-Based Approach</h3>
+
+<p><img src="/images/IM_RL/xarm_rl.png" alt="Reinforcement learning approach" width="900" height="675" /></p>
+
+<div style="display: flex; width: 100%; height: 100%;">
+  <div style="flex: 1; padding: 10px;">
+    <p>Simulation setup for RL with the xArm robot. We use Mujoco as
+        the physics engine and interface it through Gym for learning algorithms. The
+        blue, green and red dots represent the positions of the end effector, goal and
+        distraction, respectively. In human evaluation, we create videos of the same
+        setup with the side and the top view.</p>
+  </div>
+  <div style="flex: 1; padding: 10px; display: flex; align-items: center; justify-content: center;">
+    <img src="/images/IM_RL/gym_sim_view.png" alt="Gym simulationn setup" style="width: 100%; max-width: 900px; height: auto;" />
+  </div>
+</div>
+
+<h3 id="imitation-learning-based-approach">Imitation Learning-Based Approach</h3>
+
+<p><img src="/images/IM_RL/xarm_im.png" alt="Imitation Learning approach" width="900" height="675" /></p>
+
+<div style="display: flex; width: 100%; height: 100%;">
+  <div style="flex: 1; padding: 10px;">
+    <p>Toy experimental setup for testing IL model with the xArm robot. The
+        setup shows a reaching task towards the object as goal while legibly avoid the
+        red object as distraction. The model also accommodate to different viewpoint
+        condition as we have the same set up with the top and the side view in human
+        evaluation.</p>
+  </div>
+  <div style="flex: 1; padding: 10px; display: flex; align-items: center; justify-content: center;">
+    <img src="/images/IM_RL/xarm_setup_view.png" alt="Experimental setup" style="width: 100%; max-width: 900px; height: auto;" />
+  </div>
+</div>
+
+<h2 id="results">Results</h2>
+
+<h3 id="reinforcement-learning-results">Reinforcement Learning Results</h3>
+
+<div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+  <div style="flex: 1; padding: 10px;">
+    <img src="/images/IM_RL/gym_sideview.gif" alt="gym_sideview" style="width: 100%; max-width: 800px; height: auto;" />
+    <p style="text-align: center; font-size: 0.7em; color: gray; margin-top: 0; margin-bottom: 10px;">Side view of reinforcement learning trajectory.</p>
+  </div>
+  <div style="flex: 1; padding: 10px;">
+    <img src="/images/IM_RL/gym_topview.gif" alt="gym_topview" style="width: 100%; max-width: 800px; height: auto;" />
+    <p style="text-align: center; font-size: 0.7em; color: gray; margin-top: 0; margin-bottom: 10px;">Top view of reinforcement learning trajectory.</p>
+  </div>
+</div>
+
+<h3 id="imitation-learning-results">Imitation Learning Results</h3>
+
+<div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+  <div style="flex: 1; padding: 10px;">
+    <img src="/images/IM_RL/xarm_sideview.gif" alt="xarm_sideview" style="width: 100%; max-width: 800px; height: auto;" />
+    <p style="text-align: center; font-size: 0.7em; color: gray; margin-top: 0; margin-bottom: 10px;">Side view of imitation learning legible trajectory.</p>
+  </div>
+  <div style="flex: 1; padding: 10px;">
+    <img src="/images/IM_RL/xarm_topview.gif" alt="xarm topview" style="width: 100%; max-width: 800px; height: auto;" />
+    <p style="text-align: center; font-size: 0.7em; color: gray; margin-top: 0; margin-bottom: 10px;"> Top view of imitation learning legible trajectory.</p>
+  </div>
+</div>
+
+<h3 id="evaluation">Evaluation</h3>
+
+<p>Since legibility refers to the ability to generate motion sequences that are easily understood by humans, creating a metric that accurately reflects human preferences is challenging. Therefore, it is essential to include human evaluation alongside the metrics used in our RL and IL training processes. A group of 10 participants was asked to watch all 8 videos, pausing when they believed they had identified the robot’s intention, and then reporting which object they thought the robot was targeting. We developed a scoring system to balance these considerations.</p>
+
+<div style="text-align: justify;">
+  <img src="/images/IM_RL/eval.png" alt="Evaluation bar graph" />
+  <p style="font-style: italic; font-size: 0.7em; color: gray;">Human-based evaluation results on the recorded legible motions. While IL-trained agent performed competitively well compared to the expert demonstrations, RL-trained one outperformed the others by 15%. Without proper viewpoint conditioning, RL-trained agent obtained a low score.</p>
+</div>
+
+<!-- ![Evaluation bar graph](/images/IM_RL/eval.png){: width="900" height="675"}
+
+Human-based evaluation results on the recorded legible motions. While
+our IL-trained agent performed competitively well compared to the expert
+demonstrations, our RL-trained one outperformed the others by 15%. Without
+proper viewpoint conditioning, RL-trained agent obtained a low score. -->
+
+<h2 id="conclusion">Conclusion</h2>
+
+<ul>
+  <li>Accomplished goal-oriented tasks with legible motion plans considering observer’s viewpoint</li>
+  <li>Evaluated two learning-based methods with humans and compared with expert baseline</li>
+</ul>
+
+<h2 id="future-work">Future Work</h2>
+
+<ul>
+  <li>Bridge the gap between simulation and real world for RL.</li>
+  <li>Integrate multi-modal sensory inputs for adaptive and dynamic legible motion.</li>
+</ul>
+
+<h2 id="references">References</h2>
+
+<p>Read Full Report <a href="/files/ML_AI_Project_paper.pdf">Here</a> !!!</p>
+
+  </div>
+
+  
+  <div class="project__navigation animate">
+    <a class="project__prev" href="/project/multi-agent-path-finding">
+      <div class="project__box">
+        <span class="project__nav__info">Next Project</span>
+        <h2 class="project__nav__title">Multi-Agent Path Finding<i class="ion ion-md-arrow-round-forward arrow-right"></i></h2>
+      </div>
+    </a>
+  </div>
+  
+
+</div>
+
+
+
+    <!--
+        Bookshop components are accessed using the bookshop tag,
+        using the same syntax as the standard Jekyll include tag.
+    -->
+    <!--bookshop-live meta(version="3.9.0" baseurl="" title="Prakrit Tyagi") -->
+<!--bookshop-live name(page.jekyll.html) params(content_blocks=page.content_blocks page_theme=page.page_theme) context() -->
+
+<!--bookshop-live end-->
+
+    <div class="top" title="Top"><i class="ion ion-ios-arrow-up"></i></div>
+
+    <!-- begin footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+
+        <!--bookshop-live meta(version="3.9.0" baseurl="" title="Prakrit Tyagi") -->
+<!--bookshop-live name(social-link.jekyll.html) params() context() -->
+
+<div class="social">
+  <ul class="social__list list-reset">
+    
+    <li class="social__item">
+      <a class="social__link" href="https://www.linkedin.com/in/prakrittyagi/" target="_blank" rel="noopener" aria-label="logo-linkedin icon">
+        <!-- <img loading="lazy" src="/images/logos/logo-linkedin.png" alt=""/> -->
+        <i class="ion ion-logo-linkedin"></i>
+      </a>
+    </li>
+    
+    <li class="social__item">
+      <a class="social__link" href="https://github.com/PrakritTyagi" target="_blank" rel="noopener" aria-label="logo-github icon">
+        <!-- <img loading="lazy" src="/images/logos/logo-github.png" alt=""/> -->
+        <i class="ion ion-logo-github"></i>
+      </a>
+    </li>
+    
+    <li class="social__item">
+      <a class="social__link" href="mailto:tyagiprakrit200@gmail.com" target="_blank" rel="noopener" aria-label="md-mail icon">
+        <!-- <img loading="lazy" src="/images/logos/md-mail.png" alt=""/> -->
+        <i class="ion ion-md-mail"></i>
+      </a>
+    </li>
+    
+    <li class="social__item">
+      <a class="social__link" href="https://scholar.google.com/citations?user=mr1HGtgAAAAJ&hl=en&authuser=1" target="_blank" rel="noopener" aria-label="md-school icon">
+        <!-- <img loading="lazy" src="/images/logos/md-school.png" alt=""/> -->
+        <i class="ion ion-md-school"></i>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+
+<!--bookshop-live end-->
+
+        <ul class="footer_nav list-reset">
+          
+          <li class="footer_nav__item">
+            <a href="/" class="footer_nav__link">Home</a>
+          </li>
+          
+          <li class="footer_nav__item">
+            <a href="/projects/" class="footer_nav__link">Projects</a>
+          </li>
+          
+          <li class="footer_nav__item">
+            <a href="/blog/" class="footer_nav__link">Blog</a>
+          </li>
+          
+          <li class="footer_nav__item">
+            <a href="/about/" class="footer_nav__link">About</a>
+          </li>
+          
+        </ul>
+
+        <div class="copyright"><p> 2021 &copy; <a href="/">Vonge</a>. Template by <a href="https://cloudcannon.com/">CloudCannon</a>. Icons provided by <a href="https://ionic.io/ionicons" title="ionicons">Ionicons</a></p></div>
+
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- end footer -->
+
+    <script src="/js/scripts.js"></script>
+    <script src="/js/common.js"></script>
+</body>
+</html>
