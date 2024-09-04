@@ -77,12 +77,6 @@
               
                 
                 <li class="nav__item">
-                  <a href="/blog/" class="nav__link">Blog</a>
-                </li>
-                
-              
-                
-                <li class="nav__item">
                   <a href="/about/" class="nav__link">About</a>
                 </li>
                 
@@ -179,7 +173,8 @@
 
 <p>This project introduces a facial expression classification algorithm that utilizes a shallow neural network architecture to recognize and categorize human emotions. The system leverages images from the AffectNet dataset to classify eight primary emotions: neutral, happiness, sadness, surprise, fear, disgust, anger, and contempt. The whole dataset is batchlized to prevent memory overshoot. At each iteration of batches, the model is trained through forward-pass and backpropagation via Mean Cross Entropy loss function. Labels are predicted on a given image with argmax. After training the model on AffectNet, the algorithm is implemented in real-time for emotion classification, in conjunction with the OpenCV facial detection algorithm. We also compare the performance of this algorithm with both a baseline neural network and a pre-trained ResNet18 model.</p>
 
-<p><img src="/images/Emotions/model.png" alt="CNN Model" width="900" height="675" /></p>
+<p><img src="/images/Emotions/model.png" alt="CNN Model" width="900" height="675" />
+<!-- markdownlint-disable-next-line MD033 --></p>
 <p style="text-align: center; font-size: 0.7em; color: gray; margin-top: 0; margin-bottom: 40px;">Baseline CNN with 5 Convolutional layer &amp; Fully Connected Layer.</p>
 
 <h2 id="dataset">Dataset</h2>
@@ -202,6 +197,8 @@
 
   </div>
 
+ 
+
   
   <div class="project__navigation animate">
     <a class="project__prev" href="/project/viewpoint-conditioned-legible-motion-planning-with-imitation-and-reinforcement-learning">
@@ -212,6 +209,17 @@
     </a>
   </div>
   
+
+  <!-- 
+  <div class="project__navigation animate">
+    <a class="project__prev" href="/project/super-visual-lidar-odometry-and-mapping">
+      <div class="project__box">
+        <span class="project__nav__info">Previous Project</span>
+        <h2 class="project__nav__title">Super Visual Lidar Odometry and Mapping<i class="ion ion-md-arrow-round-back arrow-left"></i></h2>
+      </div>
+    </a>
+  </div>
+   -->
 
 </div>
 
