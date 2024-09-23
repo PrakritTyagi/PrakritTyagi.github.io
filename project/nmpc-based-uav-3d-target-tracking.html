@@ -6,25 +6,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>N-MPC-based UAV Target Tracking</title>
+  <title>N-MPC Formulation For UAV Target Tracking</title>
   <meta name='description' content='This is a portfolio site for Prakrit Tyagi.'>
 
   <link rel="canonical" href="https://prakrittyagi.github.io/project/nmpc-based-uav-3d-target-tracking">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="N-MPC-based UAV Target Tracking – Prakrit Tyagi">
-  <meta name="twitter:description" content="
-  Under Construction ….
-
+  <meta name="twitter:title" content="N-MPC Formulation For UAV Target Tracking – Prakrit Tyagi">
+  <meta name="twitter:description" content="Motivation
 ">
   <meta name="twitter:image:src" content="https://prakrittyagi.github.io/images/NMPC/cover_nmpc.png">
 
   <!-- Facebook OpenGraph -->
-  <meta property="og:title" content="N-MPC-based UAV Target Tracking – Prakrit Tyagi">
-  <meta property="og:description" content="
-  Under Construction ….
-
+  <meta property="og:title" content="N-MPC Formulation For UAV Target Tracking – Prakrit Tyagi">
+  <meta property="og:description" content="Motivation
 ">
   <meta property="og:image" content="https://prakrittyagi.github.io/images/NMPC/cover_nmpc.png">
 
@@ -156,7 +152,7 @@
 
 <div class="container">
   <div class="c-page-heading">
-    <h1 class="c-page-heading__title">N-MPC-based UAV Target Tracking</h1>
+    <h1 class="c-page-heading__title">N-MPC Formulation For UAV Target Tracking</h1>
     
       <p class="c-page-heading__description">MPC and UAV</p>
     
@@ -179,9 +175,71 @@
 <!--bookshop-live end-->
 
   <div class="page animate">
-    <ul>
-  <li>Under Construction ….</li>
+    <h2 id="motivation">Motivation</h2>
+
+<p>Persistent target tracking using fixed-wing unmanned aerial vehicles (UAVs) in urban areas is an important application. However, due to the kinematic constraints of the UAV coupled with the visibility obstruction due to terrain impose hard constraints on the UAV motion for persistent tracking. In this project, we propose a nonlinear model predictive control (NMPC) based controller with a gimballed camera to persistently track a target on the ground. The controller determines the control commands for the UAV and the gimbal azimuth and elevation angles. Simulations results show that the proposed approach can efficiently track the target compared to the NMPC framework without gimbal.</p>
+
+<p>The target tracking involves</p>
+
+<ul>
+  <li>Persistent tracking with limited camera field-of-view (FOV)</li>
+  <li>Obstacle avoidance</li>
+  <li>Avoiding paths that obstruct visibility</li>
+  <li>Satisfy physical vehicle motion constraints</li>
+  <li>Maximize fight time</li>
 </ul>
+
+<h2 id="problem-formulation">Problem Formulation</h2>
+
+<p>Consider a fixed-wing UAV with a camera mounted on a gimbal at its center of gravity. The target is moving on the ground with constant velocity and its position, heading angle, velocity and angular velocity are available to the UAV.</p>
+
+<h3 id="uav-modelling-and-prediction-equations">UAV modelling and Prediction equations</h3>
+
+<p><img src="/images/NMPC/dynamics.png" alt="CNN Model" width="900" height="675" /></p>
+
+<p><img src="/images/NMPC/gimbal_target.png" alt="CNN Model" width="900" height="675" /></p>
+
+<h3 id="nmpc-formulation">NMPC Formulation</h3>
+
+<p><img src="/images/NMPC/NMPC.png" alt="CNN Model" width="900" height="675" /></p>
+
+<h3 id="objective-function">Objective Function</h3>
+
+<p><img src="/images/NMPC/objective.png" alt="CNN Model" width="900" height="675" /></p>
+
+<h4 id="energy-function">Energy Function</h4>
+
+<p><img src="/images/NMPC/energy.png" alt="CNN Model" width="900" height="675" /></p>
+
+<h4 id="distance-function">Distance Function</h4>
+
+<p><img src="/images/NMPC/distance.png" alt="CNN Model" width="900" height="675" /></p>
+
+<h4 id="ellipse-function">Ellipse Function</h4>
+
+<p><img src="/images/NMPC/ellipse.png" alt="CNN Model" width="900" height="675" /></p>
+
+<h4 id="los-function">LOS Function</h4>
+
+<p><img src="/images/NMPC/los.png" alt="CNN Model" width="900" height="675" /></p>
+
+<h4 id="obstacle-avoidance-function">Obstacle Avoidance Function</h4>
+
+<p><img src="/images/NMPC/obstacle.png" alt="CNN Model" width="900" height="675" /></p>
+
+<h3 id="simulation-setup">Simulation Setup</h3>
+
+<p><img src="/images/NMPC/simulation_env.png" alt="CNN Model" width="900" height="675" /></p>
+
+<h3 id="results">Results</h3>
+
+<p><img src="/images/NMPC/results.png" alt="CNN Model" width="900" height="675" /></p>
+
+<p><img src="/images/NMPC/NMPC.gif" alt="MAPF video" width="800" /></p>
+
+<h2 id="references">References</h2>
+
+<p>Read Full Report <a href="https://ieeexplore.ieee.org/document/9476710">Here</a> and code <a href="https://github.com/PrakritTyagi/MPC_Target-Tracking_UAV">GITHUB</a></p>
 
   </div>
 
@@ -189,16 +247,25 @@
 
   
   <div class="project__navigation animate">
-    <a class="project__prev" href="/project/ugv-autonomous-navigation-and-mapping">
+    <a class="project__prev" href="/project/recognition-and-classification-of-human-emotions-from-facial-expressions">
       <div class="project__box">
         <span class="project__nav__info">Next Project</span>
-        <h2 class="project__nav__title">UGV-Autonomous-Navigation-and-Mapping<i class="ion ion-md-arrow-round-forward arrow-right"></i></h2>
+        <h2 class="project__nav__title">Recognition and Classification of Human Emotions From Facial Expressions<i class="ion ion-md-arrow-round-forward arrow-right"></i></h2>
       </div>
     </a>
   </div>
   
 
-  <!--  -->
+  <!-- 
+  <div class="project__navigation animate">
+    <a class="project__prev" href="/project/lqr-based-thrust-control-of-quadcopter">
+      <div class="project__box">
+        <span class="project__nav__info">Previous Project</span>
+        <h2 class="project__nav__title">LQR based Thrust control of Quadcopter<i class="ion ion-md-arrow-round-back arrow-left"></i></h2>
+      </div>
+    </a>
+  </div>
+   -->
 
 </div>
 
