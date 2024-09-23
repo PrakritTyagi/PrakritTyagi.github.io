@@ -33,4 +33,4 @@ The video below demonstrates the real-time emotion recognition system in action.
 
 ## References
 
-Read Full Report [Here](/files//24787_Final_Report_Human_Emotion_Classification.pdf) !!!
+Read Full Report [Here](/files//24787_Final_Report_Human_Emotion_Classification.pdf) and code [GITHUB](https://github.com/PrakritTyagi/Facial_Emotion_Classifier)!!!

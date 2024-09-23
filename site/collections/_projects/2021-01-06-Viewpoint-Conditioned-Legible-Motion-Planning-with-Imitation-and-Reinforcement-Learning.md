@@ -137,4 +137,4 @@ proper viewpoint conditioning, RL-trained agent obtained a low score. -->
 
 ## References
 
-Read Full Report [Here](/files/ML_AI_Project_paper.pdf) !!!
+Read Full Report [Here](/files/ML_AI_Project_paper.pdf) and Poster [Here](/files/MechE_Design_Expo_Poster.pdf)!!!
